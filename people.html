@@ -1,0 +1,145 @@
+<Doctype! html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="people.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/themes/kelly.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <img class="img-fond" src="image/Frame 1.svg"> 
+            <div class="sticky-md-top">
+              <img class="img-fluid" src="image/q_natixis_beyond-banking 2.png" >
+              <ul class="nav nav-tabs">    
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="people.html"><span class="orange">People</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="homepage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="environnement.html">environnement</a>
+                </li>
+                <li>
+                  <a href="https://www.natixis.com/natixis/fr/accueil-j_6.html"><button type="button" class="btn btn-outline-light">Natixis.com</button></a>
+                </li>
+                
+              </ul>
+             </div>   
+              
+          </header>
+          <main>
+            <div class="intro">
+              <h1>Bienvenue dans un monde tourné vers&thinsp;<span class="orange">l'humain.</span></h1>
+              <p class="centre">Natixis fait prendre part mais aussi profiter de la RSE à ses différents collaborateurs. </p>
+              <img class="fleche" src="image/scroll-down-arrow-icon-300x300 1.png">
+            </div>
+            <!--La carte interactive-->
+            <div id="map-people"></div>
+            <div class="map">
+              <div class="column">
+                <a href="#effectif"><div class="effectif"></div></a>
+                <a href="#risques-humains"><div class="risques-humains"></div></a>
+                <a href="#avenir"><div class="avenir"></div></a>
+                <a href="#absenteisme"><div class="absenteisme"></div></a>
+                <a href="#prevention"><div class="prevention"></div></a>
+                <a href="#handicap"><div class="handicap"></div></a>
+                <a href="#formation"><div class="formation"></div></a>
+                <img src="image\map interactive.svg">
+              </div>
+            </div>
+            <!--La phrise du haut au bas de la page-->
+            <img class="dessous" src="image\Group 171 (2).svg">
+            <!--Dataviz 1-->
+            <div id="effectif" class="graphique1">
+              <div class="width">
+                <p class="titre">ÉVOLUTION DE LA COMPOSITION
+                  DE L’EFFECTIF TOTAL DE NATIXIS 
+                  VERS UN OBJECTIF DE PARITÉ</p>
+              </div>
+              <div id="dataviz5"></div>
+            </div>
+            <a href="#map-people" class="btn btn-outline-dark"  role="button">BACK TO MAP</a>
+                <!--Dataviz 2-->
+              <div id="avenir" class="graphique2">
+                <img class="graph2" src="image\dataviz (3).svg">
+                <p class="titre">AVENIR DES COLLABORATEURS
+                  DE MOINS DE 30 ANS</p>
+              </div>
+              <a href="#map-people" class="btn btn-outline-dark"  role="button">BACK TO MAP</a>
+              <!--Dataviz 3-->
+              <div id="absenteisme" class="graphique3">
+                <div class="box">
+                  <img class="graph3" src="image/dataviz (4).svg">
+                  <div class="width">
+                    <p class="titre">ABSENTEISME MALADIE
+                      CHEZ LES COLLABORATEURS
+                      GRÂCE À NATIXIS S.A.</p>
+                  </div>
+                </div>
+              </div>
+              <a href="#map-people" class="btn btn-outline-dark"  role="button">BACK TO MAP</a>
+              <!--Dataviz 4-->
+
+              <div id="avenir" class="graphique2">
+                <div id="prevention" class="box">
+                  <img class="graph3" src="image\dataviz (5).svg">
+                   <div class="width">
+                    <p class="titre">PREVENTION DES ACCIDENTS DE TRAVAIL GRACE A NATIXIS S.A.</p>
+                  </div>
+                </div>
+              </div>
+              <a href="#map-people" class="btn btn-outline-dark"  role="button">BACK TO MAP</a>
+              <!--Dataviz 5-->
+                
+              <div id="handicap" class="box">
+                <img class="graph4" src="image\DATAVIZ 5 — HANDICAP.svg">
+              </div>
+              <a href="#map-people" class="btn btn-outline-dark"  role="button">BACK TO MAP</a>
+              <!--Dataviz 6-->
+              <div id="formation" class="graphique5">
+                <div class="width">
+                  <p class="titre">FORMATIONS AU SEIN DE NATIXIS</p>
+                </div>
+                <div class="graph1" id="diagramme4"></div>
+              </div>
+              
+            
+            
+            
+            <a href="#map-people" class="btn btn-outline-dark"  role="button">BACK TO TOP</a>
+          </main>
+
+          <footer>
+            <h2>Follow us</h2>
+            <div class="bouton-follow">
+              <button type="button" class="btn btn-info"><img class="linkedin" src="image/linkedin-white-icon-4 1.png"></button>
+              <button type="button" class="btn btn-info"><img class="youtube" src="image/unnamed 1.png"></button>
+              <button type="button" class="btn btn-info"><img class="twitter" src="image/twitter-icon-18-256 1.png"></button>
+            </div>
+            <div class="mot">
+              <p>Site map</p>
+              <p>Contact</p>
+              <p>Suppliers</p>
+              <p>Complaints</p>
+              <p>Deposit garantee</p>
+              <p>Legal information</p>
+              <p>Data protection</p>
+              <p>Our websites</p>
+            </div>
+            <img class="img-footer" src="image\logos footer.svg">
+            <div>
+              <img src="image/logo bpce.png">
+            </div>
+          </footer> 
+    </body>
+</html>
+
+
